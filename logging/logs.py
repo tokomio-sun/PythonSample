@@ -7,7 +7,7 @@ def main():
 
     logger = logging.getLogger(__name__)
 
-    while 1:
+    for i in range(10):
         logger.critical(f"----- logger Message -----")
         logger.critical(f"  CRITICAL message")
         logger.error(f"  ERROR message")
